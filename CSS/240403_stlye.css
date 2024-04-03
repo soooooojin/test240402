@@ -1,0 +1,84 @@
+img{
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+} 
+
+body{
+    margin: 0;
+}
+
+h1{
+    color: blue;
+    font-size: 5em;
+    text-align: center;
+    border-bottom: 1px gray solid;
+    display: block;
+    margin: 0;
+}
+
+h2{
+
+    
+}
+
+#grid2{
+    display: grid;
+    grid-template-columns:  150px 1fr;
+}
+
+#grid {
+    border: 5px solid yellow;
+    display: grid;
+    text-align: center;
+    grid-template-columns:  1fr 1fr 1fr;
+}
+
+#grid ol {
+    padding-left:  30px;
+}
+
+ol {
+    border-right: 1px solid gray;
+    width: 100px;
+    margin: 0;
+    padding: 20px;
+    
+}
+
+#fx {
+    border:  5px solid pink;
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    border:  10px pink solid;
+}
+
+
+
+ /* h1, a {
+    border: red 5px solid;
+    
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding: 30px 20px;
+
+    /*위, 아래, 왼, 오*/
+    /*padding: 30px 20px;*/
+
+    /* padding:  10px 20px 30px 40px;
+    margin: 40px;
+    display: block;
+    width: 100px;  */
+
+
+/* a {
+    border-width : 5px;
+    border-color: red;
+    border-style: solid;
+    display: inline;
+ */ 
