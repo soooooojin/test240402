@@ -16,12 +16,10 @@ h1{
     display: block;
     margin: 0;
 }
+/* h2{
 
-h2{
 
-    
-}
-
+} */
 #grid2{
     display: grid;
     grid-template-columns:  150px 1fr;

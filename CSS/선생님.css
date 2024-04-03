@@ -1,11 +1,17 @@
-#test {
-    color: blueviolet;
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
-  
+
   body {
     margin: 0;
   }
-  
+
+/* #test {
+    color: blueviolet;
+  }
+   */
   h1 {
     color: blue;
     font-size: 5em;
@@ -34,12 +40,14 @@
   }
   
   a {
-    color: black;
+    color: violet;
     text-decoration: none;
   }
   
   #article {
-    padding-left: 20px;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+   
   }
   
   #active {
@@ -59,9 +67,9 @@
     column-gap: 20px;
     row-gap: 20px;
   }
+
+  div {
+    border:  5px pink solid;
+}
   
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+  
