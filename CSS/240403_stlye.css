@@ -51,9 +51,61 @@ ol {
 }
 
 div {
-    border:  10px pink solid;
+    /* border:  10px pink solid; */
+    border: 10px solid green;
+     font-size: 60px;
+    
+}
+/* 800px 이상 크다면, 조건이 display none하겠다. */
+@media screen and (min-width: 600px){
+    div {
+      display: none;
+    }
+  }
+@media screen and (min-width: 700px){
+    body{
+        /* 이미지추가 */
+        background:  url(../푸바오2.jpg) no-repeat fixed;
+        background-size : cover;
+
+    }
 }
 
+@media screen and (min-width: 800px){
+    body{
+        /* 이미지추가 */
+        background:  url(../푸바오8.jpg) no-repeat fixed;
+        background-size : cover;
+
+    }
+}
+
+@media screen and (min-width: 900px){
+    body{
+        /* 이미지추가 */
+        background:  url(../푸바오4.jpg) no-repeat fixed;
+        background-size : cover;
+
+    }
+}
+
+@media screen and (min-width: 1100px){
+    body{
+        /* 이미지추가 */
+        background:  url(../푸바오5.jpg) no-repeat fixed;
+        background-size : cover;
+
+    }
+}
+
+@media screen and (min-width: 1300px){
+    body{
+        /* 이미지추가 */
+        background:  url(../푸바오9.jpg) no-repeat fixed;
+        background-size : cover;
+
+    }
+}
 
 
  /* h1, a {
